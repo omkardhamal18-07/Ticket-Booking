@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IPL Ticket Booking Form</title>
+    <style>
+        table{margin-left: 400px;}
+    </style>
+</head>
+<body>
+
+<h2>IPL Ticket Booking Portal</h2>
+
+<form>
+    <table border="3" >
+        <tr>
+            <td>Name :</td>
+            <td><input type="text" name="fullname"></td>
+        </tr>
+
+        <tr>
+            <td>Email :</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+
+        <tr>
+            <td>Password :</td>
+            <td><input type="password" name="pass"></td>
+        </tr>
+
+        <tr>
+            <td>Select Team :</td>
+            <td>
+                <input type="radio" name="team"> Mumbai Indians<br>
+                <input type="radio" name="team"> Chennai Super Kings<br>
+                <input type="radio" name="team"> Royal Challengers Bengaluru<br>
+                <input type="radio" name="team"> Rajasthan Royals<br>
+                <input type="radio" name="team"> Gujarat Giants<br>
+                <input type="radio" name="team"> Lucknow Super Giants<br>
+                <input type="radio" name="team"> Delhi Capitals<br>
+                <input type="radio" name="team"> Sunrisers Hyderabad<br>
+                <input type="radio" name="team"> Punjab Kings<br>
+                <input type="radio" name="team"> Kolkata Knight Riders
+            </td>
+        </tr>
+
+        <tr>
+            <td>Facilities :</td>
+            <td>
+                <input type="checkbox"> Parking<br>
+                <input type="checkbox"> Food Coupon<br>
+                <input type="checkbox"> Team Merchandise
+            </td>
+        </tr>
+
+        <tr>
+            <td>Select Stand :</td>
+            <td>
+                <select>
+                    <option>North Stand A1</option>
+                    <option>North Stand A2</option>
+                    <option>East Stand B1</option>
+                    <option>East Stand B2</option>
+                    <option>West Stand C1</option>
+                    <option>West Stand C2</option>
+                    <option>South Stand D1</option>
+                    <option>South Stand D2</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+         <td></td>   
+            <td>
+                <input type="reset" value="Reset">
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td></td>
+           <td>
+            <input type="submit" value="Book Ticket">
+            </td>
+            
+            </tr>
+    </table>
+</form>
+
+</body>
+</html>
